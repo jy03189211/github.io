@@ -17,7 +17,7 @@ disqus_shortname: 'your-disqus-shortname'
 # Details for the RSS feed generator
 url:            'http://jimmyjin.me'
 author:         'JimmyJin'
-authorTwitter:  ''
+authorTwitter:  'jy03189211'
 avatar:         'https://github.com/jy03189211/jy03189211.github.io/blob/master/assets/images/avatar.png'
 
 permalink:       /:year/:title/
