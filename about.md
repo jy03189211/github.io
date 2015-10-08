@@ -4,6 +4,8 @@ permalink: about/
 profile: true
 ---
 
-This is a static page. It could be an 'about page' if you'd like.
+I do Android and Golang.
+ 
+Welcome!
 
 {% include footer.html %}
