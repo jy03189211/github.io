@@ -73,8 +73,40 @@ android:hint="Type something here"
 
 ![EditText](/assets/images/edittext.jpg)
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+###maxLines
+EditText如果设置他的宽是“wrap_parent”，则随着输入内容的增多，输入框会被拉长，如果超过一行，会自动换行显示，显示的是全部内容。但是这样就有了一个弊端，如果我们输入的内容过多，输入框控件会占据我们屏幕的大部分空间并且会非常的丑，这时我们可以通过maxLines属性设置显示的最大行数。
 
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
-![EditText](/assets/images/edittext.jpg)
+###属性添加前：
+
+![MaxLines](/assets/images/maxlines.gif)
+
+###在xml布局文件添加android:maxLines="2"后：
+![MaxLines](/assets/images/maxlines2.gif)
+
+#ImageView
+
+ImageView是用来在界面上展示图片的一个控件。它可以让我们的界面变的丰富多彩。
+他控件的显示设置也很简单，如TextView一样包括：id，宽，高，名称（也就是显示的文字）等的设置。
+
+{% highlight xml%}
+<ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/we_it"/>
+{% endhighlight xml%}
+
+结果：![ImageView](/assets/images/imageview.jpg)
+#ProgressBar
+
+有时候我们的应用程序正在加载一下数据，这是后我们就可以用ProgressBar控件来设置进度条。
+他控件的显示设置也很简单，如TextView一样包括：id，宽，高，名称（也就是显示的文字）等的设置。
+###style
+默认情况下是圆形进度条，如果要更改样式，可以通过该属性进行修改。
+
+###visibility
+有时候数据加载完成后进度条就会消失，那么我们如何让进度条消失呢？我们可以通过visibility进行修改，该属性有三个值，分别是：visible(可见)， invisible(不可见)， gone(消失)。相应的程序应该在java代码中实现，这里不再详述。
+#AlterDialog
+该控件是弹出一个对话框，该对话框置于所有界面元素之上，屏蔽掉其他控件的交互能力。
+
+#ProgressDialog
+该控件是弹出一个对话框，该对话框置于所有界面元素之上，屏蔽掉其他控件的交互能力。与AlterDialog功能相似，但是不同的是ProgressDialog控件显示一个进度条，用于表示该操作比较耗时，请耐心等待。
