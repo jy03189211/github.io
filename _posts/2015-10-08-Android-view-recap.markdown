@@ -70,7 +70,8 @@ EditText是应用和用户进行交互的一个重要控件，用户在其中输
 {% hightlight xml%}
 android:hint="Type something here"
 {% endhightlight xml%}
-![My helpful screenshot]({{ site.url }}/assets/edittext.jpg)
+
+![EditText](/assets/images/edittext.jpg)
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
 
