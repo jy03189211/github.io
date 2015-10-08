@@ -18,6 +18,7 @@ disqus_shortname: 'your-disqus-shortname'
 url:            'http://jimmyjin.me'
 author:         'JimmyJin'
 authorTwitter:  ''
+avatar:'https://github.com/jy03189211/jy03189211.github.io/blob/master/assets/images/avatar.png'
 
 permalink:       /:year/:title/
 
