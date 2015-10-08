@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Jimmy Jin</title>
+    <description>Blogging Android and Golang</description>
+    <link>http://jimmyjin.me</link>
+    <atom:link href="http://jimmyjin.me/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Android view components recap</title>
+        
+        
+          <description>&lt;h1&gt;TextView&lt;/h1&gt;
+
+&lt;p&gt;这个可以说是Android中最简单
+的一个控件了。该控件主要用来显示一段文字。
+其中控件的显示设置也很简单，这里简单说一下重要的几个，控件的id，layout&lt;em&gt;weigth（宽度），layout&lt;/em&gt;height（高度），text（显示文字内容）等都是比较常用和简单的设置，不在详细描述。&lt;/p&gt;
+</description>
+        
+        <pubDate>Thu, 08 Oct 2015 13:18:00 +0300</pubDate>
+        <link>http://jimmyjin.me/2015/Android-view-recap/</link>
+        <guid isPermaLink="true">http://jimmyjin.me/2015/Android-view-recap/</guid>
+      </item>
+    
+  </channel>
+</rss>

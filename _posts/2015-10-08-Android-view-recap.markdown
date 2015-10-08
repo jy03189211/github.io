@@ -57,7 +57,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         }
     }
 }
-{% endhightlight %}
+{% endhighlight %}
 
 #EditText
 EditText是应用和用户进行交互的一个重要控件，用户在其中输入信息，EditText对信息进行处理传输。
@@ -67,9 +67,9 @@ EditText是应用和用户进行交互的一个重要控件，用户在其中输
 这个是EditText一个非常人性化的属性，我们经常会看到有好多输入框在输入前都会显示一些信息，当用户在进行输入的时候，信息就会消失。这个就是通过该属性进行实现的。
 
 在布局文件中添加:
-{% hightlight xml%}
+{% highlight xml%}
 android:hint="Type something here"
-{% endhightlight xml%}
+{% endhighlight xml%}
 
 ![EditText](/assets/images/edittext.jpg)
 
