@@ -9,7 +9,7 @@ highlighter: pygments
 
 paginate: 20
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
+domain_name: 'http://jimmyjin.me'
 google_analytics: 'UA-XXXXXXXX-X'
 disqus: false
 disqus_shortname: 'your-disqus-shortname'
@@ -18,7 +18,7 @@ disqus_shortname: 'your-disqus-shortname'
 url:            'http://jimmyjin.me'
 author:         'JimmyJin'
 authorTwitter:  'jy03189211'
-avatar:         'https://github.com/jy03189211/jy03189211.github.io/blob/master/assets/images/avatar.png'
+
 
 permalink:       /:year/:title/
 
