@@ -57,7 +57,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         }
     }
 }
-{% endhightlight java%}
+{% endhightlight %}
 
 #EditText
 EditText是应用和用户进行交互的一个重要控件，用户在其中输入信息，EditText对信息进行处理传输。
