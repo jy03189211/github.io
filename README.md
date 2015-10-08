@@ -1,123 +1,77 @@
-# Harmony
+Contrast
+========
 
-Harmony is a responsive jekyll theme. 
+[Demo](http://niklasbuschmann.github.io/contrast)
 
-- Built for jekyll 2.x
-- Supports Google analytics and RSS feeds
-- Sass based styles
-- Browser support: IE 8+, Chrome, Safari and Firefox 
-- Fluidly responsive 
+![screenshot](https://cloud.githubusercontent.com/assets/4943215/9838597/ef499f66-5a61-11e5-8ad0-b2bb71383833.png)
 
-## Contents
 
-- [Harmony](#harmony)
-- [About Jekyll](#about-jekyll)
-- [How to install/run](#how-to-installrun)
-- [Options/Usage](#optionsusage)
-  - [Header navigation links](#header-navigation-links)
-  - [Footer links](#footer-links)
-  - [Copyrights/Disclaimer statements](#copyrightsdisclaimer-statements)
-- [Screenshots](#screenshots)
-- [Feedback/Bugs/Suggestions](#feedbackbugssuggestions)
-- [Version history](#version-history)
-- [License](#license)
+## Features
 
-## About jekyll 
+ - mobile first
+ - syntax highlighting
+ - [disqus](https://disqus.com/) / [isso](http://posativ.org/isso/) integration
+ - customizable
+ - valid HTML5
 
-[Jekyll](http://jekyllrb.com/) is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
+Please note: Create a *master*-branch if you want to use this theme with *.github.io.
 
-## How to install/run
+## Getting Started
 
-1. [Fork](https://github.com/web-create/harmony/fork) this repository.
-2. Clone it: git clone https://github.com/YOUR-USERNAME/harmony.
-3. If you're completely new to jekyll, please read more about [Jekyll](http://jekyllrb.com/) and [Github pages](https://help.github.com/articles/using-jekyll-with-pages).
-4. Change your directory into cloned repository. 
-5. Run `bundle install`
-6. Edit the _config.yml on root directory. Change `url` property to to 
-`http://127.0.0.1:4000` since you are going to run on localhost.
-7. Run the jekyll server by having: `jekyll serve --baseurl ''` or `rake preview`   
+If you're completely new to Jekyll, I recommend checking out the documentation at <http://jekyllrb.com> or there's a tutorial by [Smashing Magazine](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/).
 
-Point your browser to [http://localhost:4000](http://localhost:4000).
+### Installing Jekyll
 
-Note: If you are a windows user please refer to this nice website - http://jekyll-windows.juthilo.com/ by Julian Thilo to configure ruby + jekyll on windows.
+If you don't have Jekyll already installed, you will need to go ahead and do that.
 
-## Options/Usage
-
-Harmony has some customizable options. All the configuration details are 
-configured in `_config.yml` file under root of the harmony directory. 
-
-Feel free to change your `name`, `descriptionn`, `meta_description`, `author details`,
-`social media names` and `Google analytics id` accordingly. 
-
-``` yml
-# Harmony theme configuration. Please change accordingly.
-harmony:
-  name: Harmony
-  # Little description about your site
-  description: Harmony is free responsive jekyll theme.
-  meta_description: Harmony is free responsive jekyll theme. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-  basetheme: theme-base-01 # pre defined the{{ site.url | prepend: site.baseurl }}mes are darken, blue-water, reddish.
-  author: # Author details
-    name: Gayan Virajith
-    email: gayanvirajith@gmail.com
-    url: http://gayanvirajith.github.io
-
-  # Google Analytics key, leave blank to ignore
-  google_analytics_key: UA-xxxx-x
-
-  # Profile links, leave blank to ignore
-  social: 
-    github: gayanvirajith
-    twitter: gayanvirajith
-    facebook: gayanvirajith
-    gplus: +GayanVirajith
-    dribble: gayan
-    pinterest: 
-  # Toggle disclaimer in footer
-  show_disclaimer: true
+```
+$ gem install jekyll
 ```
 
-### Includes 
+#### Verify your Jekyll version
 
-All the partial includes are under `_includes` directory.
+It's important to also check your version of Jekyll since this project uses Native Sass which
+is [only supported by 2.0+](http://jekyllrb.com/news/2014/05/06/jekyll-turns-2-0-0/).
 
-#### Header navigation links
+```
+$ jekyll -v
+# This should be jekyll 2.0.0 or later
+```
 
-Feel free to add/edit links for your header in the file `header-links.html`.
+### Fork, then clone
 
-#### Footer links
+Fork the repo, and then clone it so you've got the code locally.
 
-Customize your footer links by editing `_includes/footer-links.html`
+### Modify the _config.yml
 
-#### Copyrights/Disclaimer statements
+The `_config.yml` located in the root of the Pixyll directory contains all of the configuration details
+for the Jekyll site.
 
-All copyright notes are under `_includes/footer.html`. Also note that you 
-can toggle on/off copyright notes from the front-end by setting up `show_disclaimer` 
-property in `_config.yml`. 
+### Jekyll Serve
 
-### Screenshots
-![Home page screenshot](https://raw.githubusercontent.com/web-create/harmony/master/assets/css/images/harmony-web.jpg "Desktop screen")
+Then, start the Jekyll Server. I always like to give the `--watch` option so it updates the generated HTML when I make changes.
 
-![Post page screenshot](https://raw.githubusercontent.com/web-create/harmony/master/assets/css/images/harmony-web-2.jpg "Post page screen-shot")
+```
+$ jekyll serve --watch
+```
 
-![Blog archive page screenshot](https://raw.githubusercontent.com/web-create/harmony/master/assets/css/images/harmony-web-3.jpg "Blog archive page screen-shot")
+Now you can navigate to `localhost:4000` in your browser to see the site.
 
-#### Feedback/Bugs/Suggestions 
+### Using Github Pages
 
-Please submit as an [issue](https://github.com/web-create/harmony/issues/new),
-I am happy to response back.
-
-Version history
----------------
-
-| Version no. | Description  | Date |
-| --- | --- | --- |
-| 1.0 | Initial release | 9th September 2014 |
-| 1.0.1 | v1.0.1 with minor bug fix | 9th September 2014 |
-| 1.0.2 | v1.0.2 Optimize for Google | 24th October 2014 |
-
+You can host your Jekyll site for free with Github Pages. [Click here](https://pages.github.com/) for more information.
 
 ## License
 
-Free / Open sourced under the 
-[MIT](https://github.com/web-create/harmony/blob/master/LICENSE.md).
+This project is licensed under the terms of the MIT license.
+
+## Thanks to the following:
+
+* [Jekyll](http://jekyllrb.com)
+* [Github Pages](https://pages.github.com/)
+* [Richard Leland: pygment](https://github.com/richleland/pygments-css)
+* [mrdoob: three.js](https://github.com/mrdoob/three.js/)
+* [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
+* [Paul D. Hunt: Source Sans Pro](https://plus.google.com/108888178732927400671/about)
+* [Victor Gaultney: Gentium Basic](https://profiles.google.com/victorgaultneytype/about)
+* [John Otander: Pixyll](https://github.com/johnotander/pixyll/)
