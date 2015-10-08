@@ -110,3 +110,5 @@ ImageView是用来在界面上展示图片的一个控件。它可以让我们�
 
 #ProgressDialog
 该控件是弹出一个对话框，该对话框置于所有界面元素之上，屏蔽掉其他控件的交互能力。与AlterDialog功能相似，但是不同的是ProgressDialog控件显示一个进度条，用于表示该操作比较耗时，请耐心等待。
+
+Repost from: http://blog.csdn.net/to_be_designer/article/details/47805221
