@@ -1,30 +1,21 @@
-# Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+# Site settings Update for my Blog : spaceg.github.io Do.9.April 15.49:24 2015 
+title: l.g
+email: lucasgatsas@gmail.com
+description: "Hello, My Name is Lucas Gatsas, I'm a Front End Engineer and Web Developer from Switzerland. This is my Personal Notice and Archive Work Experience Work Blog. My Official Website will be Up soon! Code and Space!"
+baseurl: ""
+url: "http://lucasgatsas.ch"
+twitter_username: LucasGatsas
+github_username:  spaceg
+google_username:  https://plus.google.com/101826267816845608605/posts
+instagram_username:  lucasgatsas
 
-# Layout settings
-header_type: default  # values [ drawer, default ]
-post_type: highlight    # values [ highlight, default ]
-pagination_type: default  # values [ ops, default ]
-
-more_vert:
-  option1:
-    name: Cool Option 1
-    link: www.myawesomelink.com
-  option2:
-    name: Cool Option 2
-    link: www.myawesomelink.com
-  option3:
-    name: Cool Option 3
-    link: www.myawesomelink.com
 
 # Build settings
 markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+paginate: 5 #posts per page
+
