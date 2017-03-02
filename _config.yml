@@ -20,8 +20,7 @@ author:         'JimmyJin'
 authorTwitter:  'jy03189211'
 avatar:         'https://github.com/jy03189211/jy03189211.github.io/blob/master/assets/images/avatar.png'
 
-permalink:       /blog/:categories/:year/:title/
-
+permalink:       /Flappy/
 defaults:
     -
         scope:
