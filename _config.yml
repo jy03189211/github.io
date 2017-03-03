@@ -4,7 +4,6 @@ meta_description: "Recording funs"
 
 aboutPage: true
 
-markdown: redcarpet
 highlighter: rouge
 
 paginate: 20
